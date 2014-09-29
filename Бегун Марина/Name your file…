@@ -1,0 +1,8 @@
+Var x,y,U:real;
+Begin
+Writeln('Введите значения х,у')
+readln(x,y);
+if (y>0) and (x*x+y*y<=4) and (x*x+y*y>=1) then U:=x*x+y*y
+                                           else U:=x*y+7;
+writeln('U=',U);                                           
+end.
