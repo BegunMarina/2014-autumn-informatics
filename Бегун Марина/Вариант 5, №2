@@ -1,0 +1,11 @@
+Var n:integer;
+a:real;
+Begin
+a:=0;
+read(n);
+while n>0 do begin
+             a:=sqrt(3*n+a);
+             n:=n-1
+             end;
+writeln(a);
+end.
